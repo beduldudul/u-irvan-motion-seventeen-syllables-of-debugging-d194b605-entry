@@ -1,9 +1,9 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const haiku = [
-  "Cursor blinks at three",
-  "the log swears nothing is wrong",
-  "yet the bug blinks back",
+  "the bug waits till dawn",
+  "stack traces blur past midnight",
+  "it was a typo",
 ].join("\n");
 
 mkdirSync("/output", { recursive: true });
